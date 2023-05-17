@@ -5,8 +5,8 @@ import PrimaryBtn from "../../../components/Button/PrimaryBtn";
 export default function MakeAppointment() {
   return (
     <section className="mt-16" style={{ backgroundImage: `url(${bg})` }}>
-      <div className="hero ">
-        <div className="hero-content flex-col lg:flex-row">
+      <div className="hero">
+        <div className="hero-content flex-col lg:flex-row p-0">
           <img
             src={doctor}
             className="lg:w-1/2 rounded-lg h-1/2 -mt-32 hidden md:block"
