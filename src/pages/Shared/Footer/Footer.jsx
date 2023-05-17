@@ -27,6 +27,7 @@ export default function Footer() {
           <a className="link link-hover  text-black">Cookie policy</a>
         </div>
       </footer>
+      <div className="text-center mb-5">Copyright 2023 All Rights Reserved</div>
     </div>
   );
 }

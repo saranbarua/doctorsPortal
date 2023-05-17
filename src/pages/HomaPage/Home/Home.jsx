@@ -10,14 +10,18 @@ import ContactForm from "../ContactForm/ContactForm";
 
 export default function Home() {
   return (
-    <div className="mx-5">
-      <Banner></Banner>
-      <InfoCards></InfoCards>
-      <Services></Services>
-      <DentalCare></DentalCare>
-      <MakeAppointment></MakeAppointment>
-      <Testimonial></Testimonial>
-      <ContactForm></ContactForm>
+    <div>
+      <div className="mx-5">
+        <Banner></Banner>
+        <InfoCards></InfoCards>
+        <Services></Services>
+        <DentalCare></DentalCare>
+        <MakeAppointment></MakeAppointment>
+        <Testimonial></Testimonial>
+      </div>
+      <div>
+        <ContactForm></ContactForm>
+      </div>
     </div>
   );
 }
