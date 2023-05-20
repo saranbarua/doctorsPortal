@@ -15,7 +15,7 @@ export default function Appoinment() {
         selected={selected}
         setselected={setSelected}
       ></AvailableAppointment>
-      <AppointmentService></AppointmentService>
+      <AppointmentService selected={selected}></AppointmentService>
     </div>
   );
 }

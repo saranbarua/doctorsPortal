@@ -1,5 +1,3 @@
-import { format } from "date-fns";
-import { useState } from "react";
 import { DayPicker } from "react-day-picker";
 import background from "../../../assets/images/bg.png";
 
